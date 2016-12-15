@@ -4,6 +4,19 @@ C:\Windows\System32>"C:\Program Files (x86)\Windows Kits\10\Debuggers\x86\windbg
 
 debug
 断点：bu WININET!InternetOpenUrlW
+bd (Breakpoint Disable)
+bl (Breakpoint List)
+lm (List Loaded Modules)
+qd (Quit and Detach)
+g (Go)
+k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)
+x (Examine Symbols)
+
+To see the symbols for the Notepad.exe module, enter this command:
+x notepad!*
+
+
+
 查看Unicode: du address
 查看ASCII: da address
 查看函数参数：kb
