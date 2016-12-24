@@ -33,3 +33,7 @@ dds 2000+de0000
 
 查看函数参数
 其次，查看ESP，ESP的地址保存的就是EIP的内容，那么ESP+4就是函数的第一个参数，ESP+8是第二个参数，根据函数的参数个数，以此类推。
+
+
+ntdll!NtdllDefWindowProc_A
+user32!DefWindowProcA
