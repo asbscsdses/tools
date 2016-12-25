@@ -1,0 +1,5 @@
+mklink /j C:\Users\Administrator\AppData\Local\JetBrains B:\JetBrains
+mklink /j D:\Pm\vs2015\Web\Snippets B:\WebSnippets
+mklink /j "C:\Users\Administrator\AppData\Roaming\Opera Software\Opera Stable" B:\OperaCfg
+
+D:\Pm\360\360safe\safemon\PopWndLog.exe

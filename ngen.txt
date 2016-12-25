@@ -1,0 +1,2 @@
+ngen install E:\net\code\work\WLP\V6WorkCopy\trunk\pack\LED-PERFECT\LED-ECS编辑控制系统.exe
+ngen display E:\net\code\work\WLP\V6WorkCopy\trunk\pack\LED-PERFECT\LED-ECS编辑控制系统.exe

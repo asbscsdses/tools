@@ -1,0 +1,4 @@
+resharper 
+C:\Users\Administrator\AppData\Local\JetBrains
+
+mklink /j C:\Users\Administrator\AppData\Local\JetBrains B:\JetBrains

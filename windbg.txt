@@ -1,0 +1,17 @@
+.dump -ma d:\test.dmp
+.cordll -ve -u -l
+!dumpheap -stat
+!do 0f011470
+dd 0f011470
+.load C:\Windows\Microsoft.NET\Framework\v4.0.30319\SOS.dll
+!name2ee JIT.exe JIT.Program  查看Program类的信息。
+!dumpmt -md 00a83060 最重要的莫过于方法描述(MethodTable)的地址
+!u 00db0070 看看debug下Main方法的本地代码：
+
+DumpObj <object address>
+- 或 -
+DO <object address>
+
+Name2EE <module name> <type or method name>
+- 或 -
+Name2EE <module name>!<type or method name>
