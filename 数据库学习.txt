@@ -1,0 +1,36 @@
+外键
+比较日期中的天相同:	DateDiff(dd,datExamDate,getdate())=0	//DATEDIFF() 函数返回两个日期之间的天数
+convert(char(10),datScoreDate,111)=convert(char(10),GETDATE(),111)
+//CONVERT() 函数是把日期转换为新数据类型的通用函数。
+
+
+判断表中是否存在某字段:
+select
+ name 
+from
+ syscolumns 
+where 
+ name = 'datExamEnd' and id = object_id('JAAJ_EXAMS')
+
+判断表是否存在
+select object_id('JAAJ_EXAMS','u')
+
+添加非空字段
+alter table 表名 add 字段名 类型 not null default('')
+alter table lf add dt1 datetime not null default(getdate())
+
+创建表
+create table lf1(iBatchID int, iExamineeID int,PRIMARY KEY(iBatchID,iExamineeID));
+alter table lf1 add CONSTRAINT f1 FOREIGN KEY (iBatchID)  REFERENCES  JAAJ_Batchs(iBatchID);
+alter table lf1 add CONSTRAINT f2 FOREIGN KEY (iExamineeID)  REFERENCES  JAAJ_Examinees(iExamineeID)
+
+如果外键存在
+if exists(select 1 from sysobjects where name= 'FK_Examinee' and xtype= 'F') select 1
+
+查看外键信息
+select *
+from sys.foreign_keys
+where name ='FK_Examinee'
+
+删除外键
+alter table JAAJ_CallLists drop constraint RefJAAJ_Examinees29

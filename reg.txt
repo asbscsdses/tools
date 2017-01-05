@@ -1,0 +1,471 @@
+﻿注册表修改对照组策略详细说明级修改
+《组策略\用户配置\管理模板\控制面板》 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer] 
+"NoControlPanel"=dword:00000001（禁止访问控制面板）（至少WIN2000） 
+"ForceClassicControlPanel"=dword:00000001（强制为传统控制面板样式）（至少WINXP） 
+"DisallowCpl"=dword:00000001（隐藏指定的控制面板项目）（至少WIN2000） 
+"RestrictCpl"=dword:00000001（只显示指定的控制面板项目）（至少WIN2000） 
+[注]以上两项设置需要添加相同名称的子键，然后在子键里面新建字符串，将其值设置为指定的控制面板项目，如desk.cpl、powercfg.cpl等，可以在%WinDir%\System32目录中查找cpl文件。
+
+《组策略\用户配置\管理模板\控制面板\添加/删除程序》 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall] 
+"NoAddRemovePrograms"=dword:00000001（禁用添加/删除程序）（至少WIN2000） 
+"NoRemovePage"=dword:00000001（隐藏更改或删除程序页面）（至少WIN2000） 
+"NoAddPage"=dword:00000001（隐藏添加新程序页面）（至少WIN2000） 
+"NoWindowsSetupPage"=dword:00000001（隐藏添加/删除Windows组件页面）（至少WIN2000） 
+"NoAddFromCDorFloppy"=dword:00000001（隐藏从CD-ROM或软盘添加程序选项）（至少WIN2000） 
+"NoAddFromInternet"=dword:00000001（隐藏从Microsoft添加程序选项）（至少WIN2000） 
+"NoAddFromNetwork"=dword:00000001（隐藏从网络中添加程序选项）（至少WIN2000） 
+"NoServices"=dword:00000001（直接打开"组件向导"，防止用户使用"添加/删除程序"来配置已安装的服务）（至少WIN2000） 
+"NoSupportInfo"=dword:00000001（从"更改或删除程序"页面上的程序删除通向"支持信息"对话框的链接）（至少WIN2000）
+
+《组策略\用户配置\管理模板\控制面板\显示》 
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Control Panel\Desktop] 
+"ScreenSaveActive"="0"（禁用屏幕保护程序）（至少WIN2000SP1） 
+"SCRNSAVE.EXE"="ab"（指定屏幕保护程序文件，将不能通过显示控制面板更改）（至少WIN2000SP1） 
+"ScreenSaverIsSecure"="0"（禁用）/"1"（启用）（密码保护屏幕保护程序）（至少WIN2000SP1） 
+"ScreenSaveTimeOut"="900"（指定等待时间，单位秒，范围1-86400，如设为0则不启动，此设置将不能通过显示控制面板更改）（至少WIN2000SP1）
+
+
+《组策略\用户配置\管理模板\控制面板\显示\桌面主题》 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer] 
+"NoThemesTab"=dword:00000001（删除显示属性的主题选项）（至少WINXP） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System] 
+"NoVisualStyleChoice"=dword:00000001（禁止选择外观下的窗口和按钮样式）（至少WINXP） 
+"NoColorChoice"=dword:00000001（禁止选择外观下的色彩方案）（至少WINXP） 
+"NoSizeChoice"=dword:00000001（禁止选择外观下的字体大小）（至少WINXP） 
+"SetVisualStyle"="ab"（加载一个视觉样式文件，如数据为空则强制使用Windows经典）（至少WINXP）
+
+《组策略\用户配置\管理模板\系统》 
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\System] 
+"DisableCMD"=dword:00000002（禁用命令提示符及.cmd和.bat文件）（至少WIN2000） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System] 
+"Shell"="ab"（自定义用户界面，ab代表界面程序文件名）（至少WIN2000） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer] 
+"NoAutoUpdate"=dword:00000001（禁用Windows自动更新）（至少WINXP）
+
+《组策略\用户配置\管理模板\系统：只运行许可的Windows应用程序》（所有WINDOWS） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer] 
+"RestrictRun"=dword:00000001（禁止运行所有程序） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun] 
+[操作]新建字符串值，名称可以任意，串值为能运行的应用程序，保证"regedit.exe"包含在列表中。
+
+《组策略\用户配置\管理模板\系统：不运行指定的Windows应用程序》（至少WIN2000/ME） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer] 
+"DisallowRun"=dword:00000001 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\DisallowRun] 
+[操作]新建字符串值，从"1"开始命名，串值为不运行的应用程序。
+
+《组策略\用户配置\管理模板\系统\Ctrl+Alt+Del选项》 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System] 
+"DisableTaskMgr"=dword:00000001（禁止用户运行任务管理器）（至少WIN2000） 
+"DisableLockWorkstation"=dword:00000001（禁止用户锁定计算机）（至少WIN2000） 
+"DisableChangePassword"=dword:00000001（禁止用户改变密码）（至少WIN2000）
+
+《组策略\用户配置\管理模板\系统\登录/注销》 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer] 
+"DisableLocalMachineRun"=dword:00000001（禁用计算机运行列表）（至少WIN2000） 
+"DisableLocalMachineRunOnce"=dword:00000001（禁用计算机运行一次列表）（至少WIN2000） 
+"DisableCurrentUserRun"=dword:00000001（禁用用户运行列表）（至少WIN2000） 
+"DisableCurrentUserRunOnce"=dword:00000001（禁用用户运行一次列表）（至少WIN2000） 
+[注]各运行列表所在的注册表位置： 
+计算机运行列表[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run] 
+计算机运行一次列表[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce] 
+用户运行列表[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run] 
+用户运行一次列表[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce]
+
+《组策略\用户配置\管理模板\系统\登录/注销：限制配置文件大小》（至少WIN2000） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System] 
+"EnableProfileQuota"=dword:00000001（限制漫游用户配置文件的大小） 
+"MaxProfileSize"=dword:00007530（Windows默认，漫游用户配置文件的最大值，单位KB） 
+"IncludeRegInProQuota"=dword:00000001（文件列表中包含注册表） 
+"WarnUser"=dword:00000001（超出容量限制时通知用户） 
+"ProfileQuotaMessage"="ab"（超出容量限制时通知用户的提示信息） 
+"WarnUserTimeout"=dword:0000000f（Windows默认，提醒用户间隔时间，单位：分钟）
+
+《组策略\用户配置\管理模板\系统\电源管理》 
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\System\Power] 
+"PromptPasswordOnResume"=dword:00000001（从休眠/挂起恢复时提示输入密码）（至少WINXP）
+
+《组策略\计算机配置\Windows设置\安全设置\本地策略\安全选项》 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System] 
+"dontdisplaylastusername"=dword:00000001（不显示上次登陆的用户名）（至少WIN2000） 
+"shutdownwithoutlogon"=dword:00000001（允许在未登录前关机）（WINNT/2000/XP） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management] 
+"ClearPageFileAtShutdown"=dword:00000001（关机时清理虚拟内存页面文件）（WINNT/2000/XP） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa] 
+"restrictanonymous"=dword:00000001（不允许SAM帐户和共享的匿名枚举）（WINNT/2000/XP） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Netlogon\Parameters] 
+"DisablePasswordChange"=dword:00000001（禁止更改机器帐户密码）（至少WIN2000） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Providers\LanMan Print Services\servers] 
+"addprinterdrivers"=dword:00000001（防止用户安装打印机驱动程序）（至少WIN2000）
+
+《组策略\计算机配置\管理模板\系统》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\Explorer] 
+"NoEncryptOnMove"=dword:00000001（不自动加密移动到加密文件夹中的文件） 
+[注]这个策略只适用于在一个卷中移动的文件。文件被移到其它文件夹，或在加密文件夹中创建了一个新文件，Windows 资源管理器会自动加密那些文件。
+
+《组策略\计算机配置\管理模板\系统\登录》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system] 
+"LogonType"=dword:00000000（总是用传统登录）（至少WINXP）
+
+《组策略\计算机配置\管理模板\系统\组策略》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system] 
+"DisableBkGndGroupPolicy"=dword:00000001（关闭组策略的后台刷新）（至少WIN2000）
+
+《组策略\计算机配置\管理模板\系统\Windows文件保护》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Windows File Protection] 
+"SfcQuota"=dword:00000032（Windows文件保护缓存的最大值，单位MB）（至少WINXP） 
+"SFCDllCacheDir"="ab"（Windows文件保护缓存的位置）（至少WINXP） 
+《清理文件右键菜单"打开方式"列表》（WIN2000/ME/XP） 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes] 
+[操作]在要清理的文件类型对应的子键下，删除OpenWithList子键中相关子键。 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts] 
+[操作]在要清理的文件类型对应的子键下，删除OpenWithList和OpenWithProgids子键中相关键值。 
+[注]以上三项，只要有一项定义，就会在打开方式列表中显示。
+
+《把桌面"我的电脑"放在"我的文档"之上》（WIN2000/ME/XP） 
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}] 
+"SortOrderIndex"=dword:00000054（默认值：48）
+
+《在桌面上显示Windows版本号》（WIN2000/XP） 
+[HKEY_CURRENT_USER\Control Panel\Desktop] 
+"PaintDesktopVersion"=dword:00000001
+
+《取消WINXP对图片文件的强制关联》 
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\ShellEx\ContextMenuHandlers\ShellImagePreview] 
+[操作]删除"默认"键值的数据：{e84fda7c-1d6a-45f6-b725-cb260c236066}。 
+[注]也可以通过命令行来禁止图片预览功能：regsvr32 /u zipfldr.dll。
+
+《改变缩略图的大小和质量》（WIMXP） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer] 
+"ThumbnailSize"=dword:xxxxxxxx（大小，取值范围为十进制32-256） 
+"ThumbnailQuality"=dword:xxxxxxxx（质量，取值范围为十进制50-100）
+
+《禁止生成缩略图缓冲文件Thumbs.db》（WIMXP） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced] 
+"DisableThumbnailCache"=dword:00000001
+
+《WINXP使用WIN2000的搜索界面》 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState] 
+"Use Search Asst"="no"（no禁止搜索代理，yes允许搜索代理）
+
+《用户操作历史记录》（WIN2000/XP） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\LastVisitedMRU]（程序最近运行的历史记录） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32\OpenSaveMRU]（打开与保存的文件历史记录）
+
+《Windows保存上次最后打开的注册表键的位置》（WIN2000/XP） 
+[HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Applets/Regedit] 
+"LastKey"="ab"（ab为注册表键名） 
+[注] 如将此子键的权限设为当前用户拒绝访问，则regedit不会保留上次打开的键（记忆功能），但同时也禁用了收藏夹功能。可以先在 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets]下新建一个Favorites子键，然后再按上例方法将Regedit项的权限设为拒绝，这样既可禁止注册表编辑器的记忆功能，又不会影响收藏夹的使用。
+
+《注册表编辑器收藏夹的存放位置》（WIN2000/XP） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\Favorites]
+
+《在"服务"中删除不需要的服务》（WIN2000/XP） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services] 
+[操作]删除相关子键,重新启动生效。
+
+《自定义WINXP的时间服务》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DateTime\Servers] 
+"3"="ab"（增加时间校正服务器，可以增加多个，ab表示服务器网址） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\TimeProviders\NtpClient] 
+"SpecialPollInterval"=dword:xxxxxxxx（同步时间间隔。单位：秒，默认为十进制604800，即一周）
+
+《自定义数字（Num Lock）键状态》（WIN2000/XP） 
+[HKEY_CURRENT_USER\Control Panel\Keyboard] 
+"InitialKeyboardIndicators"="2"（打开）/"0"（关闭）
+
+《在登录WINXP的欢迎屏幕上隐藏某些用户》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList] 
+[操作]新建DWORD值，名称为需要隐藏的用户名，把值设为0即可隐藏该用户。 
+[注]可以通过此方法显示Administrator帐户，对应的DWORD值为1。
+
+《禁用登录对话框中选项按钮》（WINNT/2000/XP） 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon] 
+"ShowLogonOptions"=dword:00000000
+
+《不使用AUTOEXEC.BAT中的环境变量》（WINNT/2000/XP） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon] 
+"ParseAutoexec"="0"
+
+《保留复制和移动的文件原来的NTFS权限》（WINNT/2000/XP） 
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer] 
+"ForceCopyAclwithFile"=dword:00000001 
+[注]默认情况下，当复制或移动文件或文件夹到另一个文件夹时，它会继承新文件夹的权限。
+
+《禁止EFS加密功能》（WIN2000/XP） 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\EFS] 
+"EfsConfiguration"=dword:00000001 
+[注] 如果不想完全禁止Windows XP的文件加密功能，但希望特定的文件夹能够不被加密，可以在此文件夹中新建一个文本文件，命名为Desktop.ini，内容包括" [Encryption]"和"Disable=1"两行。这样，当其他用户试图加密该文件夹时系统将提示用户该文件夹的加密功能被禁止。使用这种方法您只能禁止用户加密该文件夹，文件夹中的子文件夹将不受保护。
+
+《让"设备管理器"显示更多信息》（WIN2000/XP） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment] 
+"DEVMGR_SHOW_DETAILS"="1"（显示更多设备信息） 
+"DEVMGR_SHOW_NONPRESENT_DEVICES"="1"（显示隐藏设备） 
+[注]隐藏设备就是以前安装过但现已被拔走的设备。
+
+《查看系统硬件信息》（WIN2000/XP） 
+[HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System]（查看主板BIOS信息） 
+[HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\CentralProcessor\0]（查看CPU信息）
+
+《加快关机速度》（WIN2000/XP） 
+[HKEY_CURRENT_USER\Control Panel\Desktop] 
+"AutoEndTasks"="1"（自动关闭停止响应的程序） 
+"HungAppTimeout"="200"（程序出错时等待时间，单位：毫秒，默认值5000） 
+"WaitToKillAppTimeout"="1000"（关闭程序时等待时间，单位：毫秒，默认值20000） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control] 
+"WaitToKillServiceTimeout"="1000"（关闭服务时等待时间，单位：毫秒，默认值20000）
+
+《减少WINXP开机滚动条时间》 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters] 
+"EnablePrefetcher"=dword:00000001
+
+《提升系统内核的性能》（WINNT/2000/XP） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management] 
+"DisablePagingExecutive"=dword:00000001 
+[注]默认情况下，Windows会把系统内核写入硬盘，这个设置就是通过禁用内存页面调度（Paging Executive），让数据保留在内存中，从而提升系统性能。建议拥有很多内存的用户（256M以上）使用这个设置。
+
+《提升系统缓存》 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management] 
+"LargeSystemCache"=dword:00000001 
+[注]通常来说，该优化会使系统性能得到相当的提升，但也有可能会使某些应用程序性能降低。需要注意的是必须有256M以上的内存，激活LargeSystemCache才能起到正面作用。
+
+《修改CPU二级缓存》（WINNT/2000/XP） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management] 
+"SecondLevelDataCache"=dword:xxxxxxxx（单位：KB）
+
+《增加磁盘缓存》（WINNT/2000/XP） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management] 
+"IoPageLockLimit"=dword:xxxxxxxx（单位：KB） 
+[注]不同内存取不同的数值，64M：00001000；128M：00004000；256M：00010000；512M或更大：00040000。据说此法可以降低BT下载对硬盘的伤害。
+
+《关闭文件保护（SFC）》（WIN2000/XP） 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon] 
+"SFCDisable"=dword:ffffff9d（彻底关闭。1为关闭但下次提示开启，2为仅下次启动时关闭，4为开启但提示关闭） 
+[注] 若要使设置在WIN2000SP2及WINXP有效，必须分别修改SFC.DLL和SFC_OS.DLL文件。对于WIN2000SP2，修改 SFC.DLL中6211h的值"8B C6"为"90 90"；对于WINXP，修改SFC_OS.DLL中E2B8h的值"8B C6""为"90 90"；对于WINXPSP1，修改SFC_OS.DLL中E3BBh的值"8B C6""为"90 90"。
+
+《WINXPSP2多用户同时登录》 
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Terminal Server\Licensing Core] 
+"EnableConcurrentSessions"=dword:00000001 
+[注]这样的并发连接最多支持两个用户同时登录一个系统，并且不能使用相同的帐号。利用该功能，在本地电脑使用Windows XP的同时，可允许另外一个用户通过远程桌面进入系统同时使用Windows XP，而不必在远程桌面登录时让本地用户退出。
+
+《程序出错时系统自动重新启动外壳程序》（WIN2000/XP） 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon] 
+"AutoRestartShell"=dword:00000001（默认值）
+
+《解决无法实现软关机的故障》（WINNT/2000/XP） 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon] 
+"PowerdownAfterShutdown"="1"
+
+《解决汉字乱码现象》（WIN2000/XP） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FontAssoc] 
+[操作]可能是注册表中与字体相关的数据出错所致，简便方法是：在另一台正常显示的计算机中将上面的内容导出到一个reg文件中，然后将该文件拷贝导出现乱码的计算机中，双击该文件将其导入注册表即可。
+
+注册表网络设置
+
+《"Internet选项"控制面板》 
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Control Panel] 
+"GeneralTab"=dword:00000001（禁用常规页面） 
+"SecurityTab"=dword:00000001（禁用安全页面） 
+"PrivacyTab"=dword:00000001（禁用隐私页面） 
+"ContentTab"=dword:00000001（禁用内容页面） 
+"ConnectionsTab"=dword:00000001（禁用连接页面） 
+"ProgramsTab"=dword:00000001（禁用程序页面） 
+"AdvancedTab"=dword:00000001（禁用高级页面） 
+"HomePage"=dword:00000001（禁止更改主页设置） 
+"Cache"=dword:00000001（禁止更改Internet临时文件设置） 
+"History"=dword:00000001（禁止更改历史记录设置） 
+"Colors"=dword:00000001（禁止更改颜色设置） 
+"links"=dword:00000001（禁止更改链接颜色设置） 
+"Fonts"=dword:00000001（禁止更改字体设置） 
+"Languages"=dword:00000001（禁止更改语言设置） 
+"Accessibility"=dword:00000001（禁止更改辅助功能设置） 
+"Ratings"=dword:00000001（禁止更改分级设置） 
+"Certificates"=dword:00000001（禁止更改证书设置） 
+"FormSuggest"=dword:00000001（禁用表单的自动完成） 
+"FormSuggest Passwords"=dword:00000001（禁止自动完成功能保存密码） 
+"Profiles"=dword:00000001（禁止更改配置文件助理设置） 
+"Connwiz Admin Lock"=dword:00000001（禁用Internet连接向导） 
+"Connection Settings"=dword:00000001（禁止更改连接设置） 
+"Autoconfig"=dword:00000001（禁止更改局域网设置中的自动配置设置） 
+"Proxy"=dword:00000001（禁止更改局域网设置中的代理服务器设置） 
+"Messaging"=dword:00000001（禁止更改电子邮件、新闻组和Internet呼叫设置） 
+"CalendarContact"=dword:00000001（禁止更改日历和联系人的设置） 
+"ResetWebSettings"=dword:00000001（禁用重置Web设置） 
+"Check_If_Default"=dword:00000001（禁止更改默认浏览器检查） 
+"Advanced"=dword:00000001（禁止更改高级页面的设置）
+
+《Internet Explorer》 
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions] 
+"NoBrowserContextMenu"=dword:00000001（禁用鼠标右键菜单） 
+"NoOpeninNewWnd"=dword:00000001（禁用"在新窗口中打开"菜单项） 
+"NoSelectDownloadDir"=dword:00000001（禁用"目标另存为"及"将该程序保存到磁盘"选项） 
+[注]以下设置仅对IE浏览器有效，而对IE核心的其它浏览器无效。 
+"NoFavorites"=dword:00000001（隐藏收藏夹） 
+"NoFileNew"=dword:00000001（禁用"文件"菜单的"新建"菜单项目） 
+"NoFileOpen"=dword:00000001（禁用"文件"菜单的"打开"菜单项） 
+"NoBrowserSaveAs"=dword:00000001（禁用"文件"菜单的"另存为"菜单项） 
+"NoBrowserClose"=dword:00000001（禁用"文件"菜单的关闭浏览器和资源管理器窗口） 
+"NoBrowserOptions"=dword:00000001（禁用"工具"菜单的"Internet选项"菜单项） 
+"NoViewSource"=dword:00000001（禁用"查看"菜单的"源文件"菜单项） 
+"NoTheaterMode"=dword:00000001（禁用"查看"菜单的"全屏显示"菜单项） 
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Infodelivery\Restrictions] 
+"NoBrowserSaveWebComplete"=dword:00000001（禁用"文件"菜单的另存为"网页，全部"格式） 
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer] 
+"DisableImportExportFavorites"=dword:00000001（禁止导入和导出收藏夹） 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer] 
+"NoToolbarCustomize"=dword:00000001（禁用自定义IE工具栏按钮） 
+"NoBandCustomize"=dword:00000001（禁用自定义IE工具栏）
+
+《管理员认可的控件》 
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\AllowedControls] 
+"{22D6F312-B0F6-11D0-94AB-0080C74C7E95}"=dword:00000000（Windows Media Player） 
+"{05589FA1-C356-11CE-BF01-00AA0055595A}"=dword:00000000（ActiveMovie控件） 
+"{D27CDB6E-AE6D-11cf-96B8-444553540000}"=dword:00000000（Shockwave Flash） 
+"{275E2FE0-7486-11D0-89D6-00A0C90C9B67}"=dword:00000000（MCSiMenu） 
+"{7823A620-9DD9-11CF-A662-00AA00C066D2}"=dword:00000000（弹出式菜单对象） 
+"{F5131C24-E56D-11CF-B78A-444553540000}"=dword:00000000（Ikonic菜单控件） 
+"{2D360201-FFF5-11D1-8D03-00A0C959BC0A}"=dword:00000000（DHTML编辑控件） 
+"{DED22F57-FEE2-11D0-953B-00C04FD9152D}"=dword:00000000（CarPoint自动报价器控件） 
+"{D45FD31B-5C6E-11D1-9EC1-00C04FD7081F}"=dword:00000000（Microsoft Agent控件） 
+"{D6526FE0-E651-11CF-99CB-00C04FD64497}"=dword:00000000（MSChat控件） 
+"{AE24FDAE-03C6-11D1-8B76-0080C744F389}"=dword:00000000（Microsoft Scriptlet组件） 
+"{BD1F006E-174F-11D2-95C0-00C04F9A8CFA}"=dword:00000000（Microsoft Survey控件） 
+"{2FF18E10-DE11-11D1-8161-00A0C90DD90C}"=dword:00000000（MSNBC News Control） 
+"{26F24A93-1DA2-11D0-A334-00AA004A5FC5}"=dword:00000000（NetShow文件传输控件） 
+"{9276B91A-E780-11d2-8A8D-00C04FA31D93}"=dword:00000000（MSN Investor Chart控件） 
+"{52ADE293-85E8-11D2-BB22-00104B0EA281}"=dword:00000000（MS Investor Ticker）
+
+《"安全区域"策略》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] 
+"Security_HKLM_only"=dword:00000001（所有用户使用同一安全区域信息） 
+"Security_options_edit"=dword:00000001（禁止所有用户更改安全区域设置） 
+"Security_zones_map_edit"=dword:00000001（禁止所有用户添加或删除安全区域中的站点）
+
+《代理服务器设置应用于所有用户》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] 
+"ProxySettingsPerUser"=dword:00000000
+
+《禁止IE自动安装组件》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Infodelivery\Restrictions] 
+"NoJITSetup"=dword:00000001
+
+《禁止定期检查IE软件更新》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Infodelivery\Restrictions] 
+"NoUpdateCheck"=dword:00000001 
+[注]默认情况下，IE每隔30天检查一次是否有新版本，如果有，则向用户发出通知。
+
+《禁止默认共享》（WINNT/2000/XP） 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters] 
+"AutoShareServer"=dword:00000000（Server） 
+"AutoShareWks"=dword:00000000（Professional）
+
+《一个网卡多个IP》 
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\NetTrans\0000（0001...）]（WIN9X） 
+[操作]找到一个包含真实IP的子键，修改字符串值"IPAddress"、"IPMask"，每个IP地址之间加","号，如： 
+"IPAddress"="192.168.1.6,192.168.1.8" 
+"IPMask"="255.255.255.0,255.255.255.0" 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces]（WIN2000/XP） 
+[操作]找到一个包含真实IP的子键，修改多字符串值"IPAddress"、"SubnetMask"，添加IP及对应的子网掩码。
+
+《修改网卡MAC地址》 
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Net\0000(/0001/0002...)]（WIN9X） 
+"NetworkAddress"="xxxxxxxxxxxx" 
+[HKEY_LOCAL_MACHINE \SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318} \0000(/0001/0002...)]（WIN2000/XP） 
+"NetworkAddress"="xxxxxxxxxxxx"
+
+《定制IE标题》 
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main] 
+"Window Title"="ab"
+
+《显示"频道栏"》 
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main] 
+"Show_ChannelBand"="yes"
+
+《设置IE背景位图》 
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Toolbar] 
+"BackBitmap"/"BackBitmapIE5"="ab"
+
+《清理IE右键菜单》 
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt] 
+[操作]删除相关主键。
+
+《清理IE地址栏历史记录》 
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TypedUrls] 
+[注]如只清理单个条目，则必须重新从1开始不间断排序，否则间断以后的部分将不能在地址栏显示。
+
+《清理IE工具栏》 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Toolbar] 
+[操作]删除相关键值。
+
+《清理IE工具栏按钮》 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Extensions] 
+[操作]删除相关主键。
+
+《IE自动搜索字符串》 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\UrlTemplate]
+
+《定制IE地址简写名称》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\AboutURLS] 
+[操作]新建字符串值，名称为网址简写名称，数据为要转到的网址。以后在IE地址栏输入：about:<简称>，就可以直接到达该网址。 
+[注]IE的空白网页，取消浏览的网页，出错网页等都在这里定义。
+
+《重新安装IE》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer] 
+[操作]把字符串"Version"的数据值改成比要安装的版本小。
+
+《重新安装IE（适用于同一版本）》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4383}] 
+"IsInstalled"=dword:00000000 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}] 
+"IsInstalled"=dword:00000000
+
+《清除IE分级审查密码》 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Ratings] 
+[操作]WIN9X：删除键值"Key"，再删除%WINDIR%\SYSTEM目录里的RATINGS.POL文件。 
+WIN2000/XP：删除此主键下所有键值及子键即可。
+
+《让IE同时下载多个文件》 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings] 
+"MaxConnectionsPerServer"=dword:0000000a（IE能同时下载10个文件） 
+"MaxConnectionsPer1_0Server"=dword:0000000a（对于HTTP 1.0服务器） 
+[注]默认情况下，IE只能在同一网站同时下载两个文件，不同网站不受限制。
+
+《禁止/允许IE下载》 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3] 
+"1803"=dword:00000003（禁止）/00000000（允许） 
+[注]在Internet选项的安全栏里也可以设置。
+
+《禁止/允许显示flash动画》 
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\ActiveX Compatibility\{D27CDB6E-AE6D-11cf-96B8-444553540000}] 
+"Compatibility Flags"=dword:00000400（禁止）/00000000（允许）
+
+《IE打开网页时的默认前缀》 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\URL\Prefixes] 
+"www"="http://"（以www开头的网址） 
+"ftp"="ftp://"（以ftp开头的网址） 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\URL\DefaultPrefix] 
+@="http://"（以其它字符开头的网址）
+
+《Outlook Express》 
+[HKEY_CURRENT_USER\Identities\<User ID>\Software\Microsoft\Outlook Express\5.0] 
+"WindowTitle"="ab"（更改Outlook Express标题） 
+"NoSplash"=dword:00000001（不显示启动画面） 
+[注]<User ID>代表用户ID，格式为{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}。 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Outlook Express] 
+"No Modify Accts"=dword:00000001（禁止创建及修改帐户） 
+"HTTP Mail Enabled"=dword:00000000（禁止使用HTTP邮件功能）
+
+《加快网上邻居的访问速度》（WIN2000/XP） 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RemoteComputer\NameSpace] 
+[操作]删除{2227A280-3AEA-1069-A2DE-08002B30309D}（打印机）和{D6277990-4C6A-11CF-8D87-00AA0060F5BF}（计划任务）。
+
+《清理网上邻居历史记录》（WIN9X）
+
+[HKEY_CURRENT_USER\Network\Recent 
+清除“任务栏 属性”的历史图标 
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer 
+首先在注册表原来位置新建“TaryNotify”项;然后打开“任务管理器”，单击进程选项卡，单击Explorer.exe，然后单击结束进程;接着在“任务管理器”中，单击文件，单击新建任务，键入explorer，然后单击确定;之后在任务栏属性中选中“隐藏不活动的图标”项，点击应用;最后进入自定义通知进行相应设置，点击确定退出即可。想要清除通知区域中的“过去的项目”，只要删除“IconStreams”和 “PastIconsStream”两个值即可，不要删除“TrayNotify”项。 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\windows\safer\codeidentifiers] 
+"Levels"=dword:00020000
