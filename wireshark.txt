@@ -1,0 +1,5 @@
+¹ıÂËHttp get
+http.request.method contains "GET"
+
+¹ıÂËssdp
+!(udp.dstport == 1900)
