@@ -1,0 +1,32 @@
+rawcap过滤wcf消息
+客户端与服务器不能用localhost
+
+fiddler过滤wcf消息
+1、启动fiddler
+2、客户端绑定设置代理地址为127.0.0.1或使用系统代理，服务地址格式设置为：
+	http://machinename:port/
+	或
+	http://localhost.fiddler:port/
+
+
+为什么之前过滤不到消息的原因
+The Microsoft .NET Framework is hardcoded to bypass proxies for any request to http://localhost. To capture such requests in Fiddler or any other proxy, use
+
+http://machinename:port/
+or
+
+http://localhost.fiddler:port/
+as the target URL.
+
+
+客户端配置代理的格式为
+<proxy bypassonlocal="False" usesystemdefault="True" />
+
+绑定设置代理的代码
+// instantiate a proxy for the service
+var svc= new ServiceClient();
+// get the HTTP binding
+var b = svc.Endpoint.Binding as System.ServiceModel.BasicHttpBinding;
+b.ProxyAddress = new Uri("http://127.0.0.1:8888");
+b.BypassProxyOnLocal = false;
+b.UseDefaultWebProxy = false;

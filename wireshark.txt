@@ -3,3 +3,6 @@ http.request.method contains "GET"
 
 ¹ýÂËssdp
 !(udp.dstport == 1900)
+
+¹ýÂËtcpÎÕÊÖ
+tcp.len > 0

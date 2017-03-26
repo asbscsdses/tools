@@ -1,0 +1,2 @@
+获取登录图片验证码
+Request URL:https://kyfw.12306.cn/otn/passcodeNew/getPassCodeNew?module=login&rand=sjrand&0.2511069043674661
