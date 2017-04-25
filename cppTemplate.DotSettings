@@ -1,0 +1,355 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C310163F851843498653F09549F52769/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C310163F851843498653F09549F52769/Shortcut/@EntryValue">aaaa</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C310163F851843498653F09549F52769/Text/@EntryValue">//////////////////////////////////////////////////////////////////////////////////////</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C310163F851843498653F09549F52769/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C310163F851843498653F09549F52769/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C310163F851843498653F09549F52769/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C310163F851843498653F09549F52769/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C310163F851843498653F09549F52769/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue">InCppFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F411644CD8ED1340A033677904EAC951/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F411644CD8ED1340A033677904EAC951/Shortcut/@EntryValue">cerr</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F411644CD8ED1340A033677904EAC951/Description/@EntryValue">Code snippet for writing to standard error stream</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F411644CD8ED1340A033677904EAC951/Text/@EntryValue">std::cerr &lt;&lt; $END$;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F411644CD8ED1340A033677904EAC951/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F411644CD8ED1340A033677904EAC951/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F411644CD8ED1340A033677904EAC951/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F411644CD8ED1340A033677904EAC951/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F411644CD8ED1340A033677904EAC951/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=314A4AAF1FA638478D3795920BC65EB7/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=314A4AAF1FA638478D3795920BC65EB7/Shortcut/@EntryValue">cin</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=314A4AAF1FA638478D3795920BC65EB7/Description/@EntryValue">Code snippet for reading from standard input stream</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=314A4AAF1FA638478D3795920BC65EB7/Text/@EntryValue">std::cin &gt;&gt; $END$;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=314A4AAF1FA638478D3795920BC65EB7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=314A4AAF1FA638478D3795920BC65EB7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=314A4AAF1FA638478D3795920BC65EB7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=314A4AAF1FA638478D3795920BC65EB7/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=314A4AAF1FA638478D3795920BC65EB7/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8AE6CE670584E408E899AF349F01058/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8AE6CE670584E408E899AF349F01058/Shortcut/@EntryValue">clog</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8AE6CE670584E408E899AF349F01058/Description/@EntryValue">Code snippet for writing to standard log stream</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8AE6CE670584E408E899AF349F01058/Text/@EntryValue">std::clog &lt;&lt; $END$;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8AE6CE670584E408E899AF349F01058/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8AE6CE670584E408E899AF349F01058/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8AE6CE670584E408E899AF349F01058/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8AE6CE670584E408E899AF349F01058/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D8AE6CE670584E408E899AF349F01058/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Shortcut/@EntryValue">cls</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Description/@EntryValue">Code snippet for new class declaration</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Text/@EntryValue">class $NAME$ {public:$END$};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Scope/=B00B630CDFF6594A940959346BAC420E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Scope/=B00B630CDFF6594A940959346BAC420E/Type/@EntryValue">InPlaceApplicableForClassDeclaration</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/Type/@EntryValue">InCppClass</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Field/=NAME/Expression/@EntryValue">constant("my_class")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F51E70F3E61CF14CBE0DE94FED26AD09/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7EC664DD87D92B4597E98D2DB47BF0DC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7EC664DD87D92B4597E98D2DB47BF0DC/Shortcut/@EntryValue">cout</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7EC664DD87D92B4597E98D2DB47BF0DC/Description/@EntryValue">Code snippet for writing to standard output stream</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7EC664DD87D92B4597E98D2DB47BF0DC/Text/@EntryValue">std::cout &lt;&lt; $END$;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7EC664DD87D92B4597E98D2DB47BF0DC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7EC664DD87D92B4597E98D2DB47BF0DC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7EC664DD87D92B4597E98D2DB47BF0DC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7EC664DD87D92B4597E98D2DB47BF0DC/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7EC664DD87D92B4597E98D2DB47BF0DC/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/Shortcut/@EntryValue">ctor</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/Description/@EntryValue">Code snippet for default constructor declaration with body</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/Text/@EntryValue">$CLASSNAME$(){$END$}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/Type/@EntryValue">InCppClass</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/Field/=CLASSNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/Field/=CLASSNAME/Expression/@EntryValue">cppContainingTypeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=46AD0B4D8C7C8445B54FD5BCD7D1F21B/Field/=CLASSNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/Shortcut/@EntryValue">ctx</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/Description/@EntryValue">Current file context</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/Text/@EntryValue">$CTX$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/Field/=CTX/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/Field/=CTX/Expression/@EntryValue">context()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A334C89806C7EA41A9842AEA755A9DB7/Field/=CTX/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/Shortcut/@EntryValue">do</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/Description/@EntryValue">Code snippet for do-while loop</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/Text/@EntryValue">do {$END$} while ($EXPR$)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/Field/=EXPR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/Field/=EXPR/Expression/@EntryValue">variableOfType("bool")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6B01AED8F19582469F927F25835CA893/Field/=EXPR/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/Shortcut/@EntryValue">dtor</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/Description/@EntryValue">Code snippet for destructor declaration with body</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/Text/@EntryValue">~$CLASSNAME$(){$END$}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/Type/@EntryValue">InCppClass</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/Field/=CLASSNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/Field/=CLASSNAME/Expression/@EntryValue">cppContainingTypeName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C4170D63CA9ABE45BDA20E3F191A2EF0/Field/=CLASSNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6E3C02D52222A54588FC5CB137D3121E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6E3C02D52222A54588FC5CB137D3121E/Shortcut/@EntryValue">else</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6E3C02D52222A54588FC5CB137D3121E/Description/@EntryValue">Code snippet for 'else' statement</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6E3C02D52222A54588FC5CB137D3121E/Text/@EntryValue">else {$END$}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6E3C02D52222A54588FC5CB137D3121E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6E3C02D52222A54588FC5CB137D3121E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6E3C02D52222A54588FC5CB137D3121E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6E3C02D52222A54588FC5CB137D3121E/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6E3C02D52222A54588FC5CB137D3121E/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Shortcut/@EntryValue">enm</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Description/@EntryValue">Code snippet for new enum declaration</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Text/@EntryValue">enum $NAME$ {$END$};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Scope/=B00B630CDFF6594A940959346BAC420E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Scope/=B00B630CDFF6594A940959346BAC420E/Type/@EntryValue">InPlaceApplicableForClassDeclaration</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/Type/@EntryValue">InCppClass</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Field/=NAME/Expression/@EntryValue">constant("my_enum")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA5E4B7E77386B42ADE42AF7CABCB607/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Shortcut/@EntryValue">enumclass</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Description/@EntryValue">Code snippet for new enum class declaration</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Text/@EntryValue">enum class $NAME$ {$END$};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/Type/@EntryValue">InCppClass</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Scope/=B00B630CDFF6594A940959346BAC420E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Scope/=B00B630CDFF6594A940959346BAC420E/Type/@EntryValue">InPlaceApplicableForClassDeclaration</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Field/=NAME/Expression/@EntryValue">constant("my_enum")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CDBF29CDA80D48448782848AEDD1BC52/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Shortcut/@EntryValue">foreach</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Description/@EntryValue">Code snippet for 'range-based for' loop</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Text/@EntryValue">for ($TYPE$ $VARIABLE$ : $COLLECTION$) {$END$}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Field/=TYPE/Expression/@EntryValue">list("auto&amp;&amp;,auto&amp;,auto")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Field/=TYPE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Field/=VARIABLE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Field/=VARIABLE/Expression/@EntryValue">suggestVariableName()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Field/=VARIABLE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Field/=COLLECTION/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Field/=COLLECTION/Expression/@EntryValue">completeSmart()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6DA2A4EBD73704E995FB66ED5660C41/Field/=COLLECTION/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Shortcut/@EntryValue">fori</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Description/@EntryValue">Code snippet for common 'for' loop pattern with integer index</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Text/@EntryValue">for(int $IDX$ = 0; $IDX$ &lt; $THRSD$; ++$IDX$) {$END$}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Field/=IDX/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Field/=IDX/Expression/@EntryValue">suggestIndexVariable()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Field/=IDX/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Field/=THRSD/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=26AEB2AC3D6873478D13DB545CEB30E6/Field/=THRSD/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Shortcut/@EntryValue">forr</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Description/@EntryValue">Code snippet for common 'for' loop pattern with integer index and reversed iteration order</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Text/@EntryValue">for (int $IDX$ = $MAX$ - 1; $IDX$ &gt;= 0 ; --$IDX$) {$END$}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Field/=IDX/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Field/=IDX/Expression/@EntryValue">suggestIndexVariable()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Field/=IDX/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Field/=MAX/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D44144EE6285F44D94D7484128770DEC/Field/=MAX/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/Shortcut/@EntryValue">if</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/Description/@EntryValue">Code snippet for 'if' statement</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/Text/@EntryValue">if ($EXPR$) $END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/Field/=EXPR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/Field/=EXPR/Expression/@EntryValue">variableOfType("bool")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C3A43E655EB174EB30E0744950BAE94/Field/=EXPR/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/Shortcut/@EntryValue">incg</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/Description/@EntryValue">Code snippet for include guard</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/Text/@EntryValue">#ifndef $FILENAME$_H&#xD;
+#define $FILENAME$_H&#xD;
+&#xD;
+$END$&#xD;
+&#xD;
+#endif // $FILENAME$_H&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/Scope/=F6696F8185506F41B9C4252540BE9C18/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/Scope/=F6696F8185506F41B9C4252540BE9C18/Type/@EntryValue">InCppFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/Field/=FILENAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/Field/=FILENAME/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B003EBE9BE3ECF4289E4EAA2175A0486/Field/=FILENAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B712E25B1C4ADB4FBD4D60477EA6444A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B712E25B1C4ADB4FBD4D60477EA6444A/Shortcut/@EntryValue">main</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B712E25B1C4ADB4FBD4D60477EA6444A/Description/@EntryValue">Code snippet for main declaration</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B712E25B1C4ADB4FBD4D60477EA6444A/Text/@EntryValue">int main(int argc, char *argv[])&#xD;
+{&#xD;
+	$END$&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B712E25B1C4ADB4FBD4D60477EA6444A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B712E25B1C4ADB4FBD4D60477EA6444A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B712E25B1C4ADB4FBD4D60477EA6444A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B712E25B1C4ADB4FBD4D60477EA6444A/Scope/=D6711EC08758964D8C84C2B3119B1B6B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B712E25B1C4ADB4FBD4D60477EA6444A/Scope/=D6711EC08758964D8C84C2B3119B1B6B/Type/@EntryValue">InCppGlobalNamespace</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B42B0BD9B6C0845B914AC7EF31DDCE1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B42B0BD9B6C0845B914AC7EF31DDCE1/Shortcut/@EntryValue">nguid</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B42B0BD9B6C0845B914AC7EF31DDCE1/Description/@EntryValue">Insert new GUID</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B42B0BD9B6C0845B914AC7EF31DDCE1/Text/@EntryValue">$GUID$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B42B0BD9B6C0845B914AC7EF31DDCE1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B42B0BD9B6C0845B914AC7EF31DDCE1/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B42B0BD9B6C0845B914AC7EF31DDCE1/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B42B0BD9B6C0845B914AC7EF31DDCE1/Field/=GUID/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B42B0BD9B6C0845B914AC7EF31DDCE1/Field/=GUID/Expression/@EntryValue">guid()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B42B0BD9B6C0845B914AC7EF31DDCE1/Field/=GUID/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Shortcut/@EntryValue">ns</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Description/@EntryValue">Code snippet for namespace decalration</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Text/@EntryValue">namespace $NAME$ {$END$}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Scope/=D6711EC08758964D8C84C2B3119B1B6B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Scope/=D6711EC08758964D8C84C2B3119B1B6B/Type/@EntryValue">InCppGlobalNamespace</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Scope/=49623BCB5944234AAD0552A2908C3C83/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Scope/=49623BCB5944234AAD0552A2908C3C83/Type/@EntryValue">InCppNamespace</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Field/=NAME/Expression/@EntryValue">constant("my_namespace")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F212813EA4C524295F7A151973F6832/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Shortcut/@EntryValue">str</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Description/@EntryValue">Code snippet for new struct declaration</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Text/@EntryValue">struct $NAME$ {$END$};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Scope/=B00B630CDFF6594A940959346BAC420E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Scope/=B00B630CDFF6594A940959346BAC420E/Type/@EntryValue">InPlaceApplicableForClassDeclaration</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/Type/@EntryValue">InCppClass</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Field/=NAME/Expression/@EntryValue">constant("my_struct")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E4BACC11C2B72E4DAB892CA5CD0161AA/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/Shortcut/@EntryValue">switch</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/Text/@EntryValue">switch ($EXPRESSION$) {$END$}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/Field/=EXPRESSION/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/Field/=EXPRESSION/Expression/@EntryValue">variableOfType("int")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD20DBF7DC01B40974323794F0E35FB/Field/=EXPRESSION/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/Shortcut/@EntryValue">try</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/Text/@EntryValue">try {$END$} catch ($EXCEPTION$) {}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/Field/=EXCEPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/Field/=EXCEPTION/Expression/@EntryValue">constant("...")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A4FEB909859043AE744EC79A2624E5/Field/=EXCEPTION/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Shortcut/@EntryValue">unn</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Description/@EntryValue">Code snippet for new union declaration</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Text/@EntryValue">union $NAME$ {$END$};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Scope/=2BA3EB57D316654FB23BF757F7C2AC89/Type/@EntryValue">InCppClass</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Scope/=B00B630CDFF6594A940959346BAC420E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Scope/=B00B630CDFF6594A940959346BAC420E/Type/@EntryValue">InPlaceApplicableForClassDeclaration</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Field/=NAME/Expression/@EntryValue">constant("my_union")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=07817C37CB56AE48867A81A8B43E3AE8/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC617072B5DF734B90D97E9BF357F620/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC617072B5DF734B90D97E9BF357F620/Shortcut/@EntryValue">wcerr</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC617072B5DF734B90D97E9BF357F620/Description/@EntryValue">Code snippet for writing to standard error stream</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC617072B5DF734B90D97E9BF357F620/Text/@EntryValue">std::wcerr &lt;&lt; $END$;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC617072B5DF734B90D97E9BF357F620/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC617072B5DF734B90D97E9BF357F620/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC617072B5DF734B90D97E9BF357F620/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC617072B5DF734B90D97E9BF357F620/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EC617072B5DF734B90D97E9BF357F620/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3CEB9CFC2F2AFB4BB9C5DAE1DF7121B9/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3CEB9CFC2F2AFB4BB9C5DAE1DF7121B9/Shortcut/@EntryValue">wcin</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3CEB9CFC2F2AFB4BB9C5DAE1DF7121B9/Description/@EntryValue">Code snippet for reading from standard input stream</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3CEB9CFC2F2AFB4BB9C5DAE1DF7121B9/Text/@EntryValue">std::wcin &gt;&gt; $END$;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3CEB9CFC2F2AFB4BB9C5DAE1DF7121B9/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3CEB9CFC2F2AFB4BB9C5DAE1DF7121B9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3CEB9CFC2F2AFB4BB9C5DAE1DF7121B9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3CEB9CFC2F2AFB4BB9C5DAE1DF7121B9/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3CEB9CFC2F2AFB4BB9C5DAE1DF7121B9/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2501A16C25404749963D36089AD5C46C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2501A16C25404749963D36089AD5C46C/Shortcut/@EntryValue">wclog</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2501A16C25404749963D36089AD5C46C/Description/@EntryValue">Code snippet for writing to standard log stream</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2501A16C25404749963D36089AD5C46C/Text/@EntryValue">std::wclog &lt;&lt; $END$;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2501A16C25404749963D36089AD5C46C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2501A16C25404749963D36089AD5C46C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2501A16C25404749963D36089AD5C46C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2501A16C25404749963D36089AD5C46C/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2501A16C25404749963D36089AD5C46C/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20370653CA0B9C4983132DD98ACEB831/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20370653CA0B9C4983132DD98ACEB831/Shortcut/@EntryValue">wcout</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20370653CA0B9C4983132DD98ACEB831/Description/@EntryValue">Code snippet for writing to standard output stream</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20370653CA0B9C4983132DD98ACEB831/Text/@EntryValue">std::wcout &lt;&lt; $END$;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20370653CA0B9C4983132DD98ACEB831/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20370653CA0B9C4983132DD98ACEB831/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20370653CA0B9C4983132DD98ACEB831/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20370653CA0B9C4983132DD98ACEB831/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=20370653CA0B9C4983132DD98ACEB831/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/Shortcut/@EntryValue">while</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/Description/@EntryValue">Code snippet for 'while' statement</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/Text/@EntryValue">while ($EXPR$) {$END$}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/Scope/=FB2B1B3627C3074699DE05129AC80274/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/Scope/=FB2B1B3627C3074699DE05129AC80274/Type/@EntryValue">InCppCompoundStatement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/Field/=EXPR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/Field/=EXPR/Expression/@EntryValue">variableOfType("bool")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0760E25E04753C4799C6CC9F7DA9CAAB/Field/=EXPR/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
