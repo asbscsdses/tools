@@ -1,0 +1,2 @@
+1、gridview.databind()被调用后提示：正在终止线程
+原因：databind事件处理程序发生了异常
