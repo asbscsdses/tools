@@ -3,3 +3,10 @@ mklink /j D:\Pm\vs2015\Web\Snippets B:\WebSnippets
 mklink /j "C:\Users\Administrator\AppData\Roaming\Opera Software\Opera Stable" B:\OperaCfg
 
 D:\Pm\360\360safe\safemon\PopWndLog.exe
+
+
+To create a symbolic link between your build folder and your new RAM disk folder use the following line:
+
+mklink /D C:\Dev\MyCurrnetBuildFolder\Source\bin R:\bin
+
+where R: is your RAM disk folder.
