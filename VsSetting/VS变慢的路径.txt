@@ -1,0 +1,24 @@
+C:\Users\yf021\AppData\Local\JetBrains 					352MB
+C:\Users\yf021\AppData\Roaming\JetBrains				30KB
+C:\Users\yf021\AppData\Local\Microsoft\VisualStudio			14.7MB
+D:\Pm\vs2013\Common7\IDE\CommonExtensions				105MB
+D:\Pm\vs2013\Common7\IDE\Extensions					204MB
+D:\Pm\vs2013\Common7\IDE\2052						5MB
+D:\Pm\vs2013\Common7\IDE\PrivateAssemblies				200MB
+C:\Windows\Microsoft.NET\assembly\GAC_MSIL				300MB
+C:\Windows\Microsoft.NET\Framework\v4.0.30319				200MB
+C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0	170MB
+
+
+
+
+mklink /d C:\Users\yf021\AppData\Local\JetBrains Z:\JetBrains
+mklink /d C:\Users\yf021\AppData\Roaming\JetBrains Z:\Roaming\JetBrains
+mklink /d C:\Users\yf021\AppData\Local\Microsoft\VisualStudio Z:\Microsoft\VisualStudio
+mklink /d D:\Pm\vs2013\Common7\IDE\CommonExtensions Z:\IDE\CommonExtensions
+mklink /d D:\Pm\vs2013\Common7\IDE\Extensions Z:\IDE\Extensions
+mklink /d D:\Pm\vs2013\Common7\IDE\2052 Z:\IDE\2052
+mklink /d D:\Pm\vs2013\Common7\IDE\PrivateAssemblies Z:\IDE\PrivateAssemblies
+mklink /d C:\Windows\Microsoft.NET\Framework\v4.0.30319 Z:\Microsoft.NET\Framework\v4.0.30319
+mklink /d "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" Z:\ReferenceAssembliesV4\v4.0
+
