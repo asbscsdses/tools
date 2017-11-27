@@ -1,0 +1,74 @@
+--获取变量的类型
+declare @d int
+
+select @d = 500
+
+if cast(sql_variant_property(@d,'BaseType') as varchar(20))  = 'int'
+print 'yes'
+else
+print 'no'
+
+
+--0x12在sql里的类型为varbinary
+select 0x12
+
+--以下为验证代码
+create table dbo.test_type (field sql_variant)
+go
+
+delete from dbo.test_type
+go
+
+INSERT INTO dbo.test_type
+VALUES (0x12);
+
+INSERT INTO dbo.test_type
+VALUES (2.0);
+
+SELECT field
+     , sql_variant_property (field
+                           , 'BaseType')
+         AS BaseType
+     , sql_variant_property (field
+                           , 'Precision')
+         AS Precision
+     , sql_variant_property (field
+                           , 'Scale')
+         AS Scale
+  FROM dbo.test_type
+
+
+--位运算
+在SQL Server ,采用1,2,4,8,16.....等用数字标识的状态字段可以进行累加,对存在的几种状态进行组合,从而可形成各种组合状态
+
+例如:一条记录该字段原来的数字是,2,如我们想加上4,则可以用
+
+update t_User set iFlag = iFlag | 4 where UserID = 1
+
+(iFlag 为该字段名)
+
+例2:在加上4之后我们想去掉4怎么办呢,可以这样实现
+
+update t_User set iFlag = iFlag ^4 where UserID = 1
+
+这样就又把4从该记录中去掉了.
+
+如果我们想选择所有为2的记录该怎么做呢,可以这样实现
+
+select * from t_User where iFlag &2 = 2
+
+SQL中的位运算不但可以取出各种值,而且我们可以对他对数据进行排序
+
+举例如下,新闻列表中的一个字段标识为
+
+1:置顶
+
+2:不置顶
+
+4:推荐
+
+8:不推荐
+
+该字段的值可以为这4种状态的组合,如果我们根据一定条件想把所有置顶的放在前面该如何做呢
+
+select * from t_News order by iFlag & 1 desc

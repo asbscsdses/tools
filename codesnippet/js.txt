@@ -1,0 +1,7 @@
+var j={"name":"binchen"};
+JSON.stringify(j);
+
+var var1 = '{"cols": [{"i" ....... 66}]}';
+var result = JSON.parse(var1);
+
+console.log(lis);

@@ -1,0 +1,3 @@
+git rm --cached -r CmdGUI\bin      É¾³ýbinÄ¿Â¼
+git commit -m "hehe"
+git push origin
