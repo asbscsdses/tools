@@ -72,3 +72,14 @@ SQL中的位运算不但可以取出各种值,而且我们可以对他对数据进行排序
 该字段的值可以为这4种状态的组合,如果我们根据一定条件想把所有置顶的放在前面该如何做呢
 
 select * from t_News order by iFlag & 1 desc
+
+
+
+
+
+
+--hex string to int
+declare @hex varchar(10)
+set @hex='aabb'
+
+SELECT case @hex when NULL THEN 0 ELSE CONVERT(INT, CONVERT(VARBINARY, '0x'+substring(@HEX,3,2), 1)) end as SIGNAL    

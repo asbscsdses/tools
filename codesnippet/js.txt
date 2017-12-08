@@ -1,7 +1,26 @@
+//object to json
 var j={"name":"binchen"};
 JSON.stringify(j);
 
+//json to object
 var var1 = '{"cols": [{"i" ....... 66}]}';
 var result = JSON.parse(var1);
 
+//控制台输出
 console.log(lis);
+
+//js函数是否存在
+if (typeof me.onChange !== "undefined") { 
+    // safe to use the function
+}
+or better yet (as per UpTheCreek upvoted comment)
+
+if (typeof me.onChange === "function") { 
+    // safe to use the function
+}
+
+//按frame名称获取frame
+typeof window.parent.frames["center"].refreshByDept
+
+//找到frame后获取其window对象
+$(window.parent.document).find(".tabGroup").find(".tab :visible")[0].contentWindow.refreshByDept
