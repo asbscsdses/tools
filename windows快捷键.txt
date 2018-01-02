@@ -1,3 +1,0 @@
-进入控制面板，用户管理 control userpasswords2
-进入系统属性 systempropertiescomputername
-进入iis管理器 inetmgr

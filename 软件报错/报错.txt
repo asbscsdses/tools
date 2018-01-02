@@ -1,5 +1,5 @@
 1、gridview.databind()被调用后提示：正在终止线程
-原因：databind事件处理程序发生了异常
+原因：databind相关事件处理程序(例如rowbounded)发生了异常
 
 2、js如何在for循环中使用ajax，传array的array[i]给ajax，当ajax返回时能找到对应的array[i]
 方法:将ajax放到一个函数中，array[i]作为函数参数
