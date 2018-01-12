@@ -1,0 +1,24 @@
+1、aspx vs ashx
+aspx:
+a)aspx 是默认的的asp.net 页面处理程序
+b)aspx的处理，有完整的页面生命周期，所以会更慢
+
+ashx:
+a)ashx是默认的不带界面的和不带@webhandler指示符的处理程序
+b)ashx只有一个ProcessRequest方法
+c)ashx非常适合要求输出非html格式的任务
+d)ashx支持重用
+
+2、vs2013使用c#6.0语法
+Install-Package Microsoft.Net.Compilers -Version 1.0.0
+
+第六章
+避免不必要的异常
+a)代码中避免使用异常
+b)避免使用异常进行逻辑流向控制
+c)避免依赖全局处理器来处理全部异常
+d)在异常发生的最近的位置进行捕获并处理
+e)不要捕获不能处理的异常
+f)尽早地失败，以避免多余的和耗时的操作
+g)详细地记录异常信息，帮助管理员排查问题
+h)避免显示太多异常信息给用户
