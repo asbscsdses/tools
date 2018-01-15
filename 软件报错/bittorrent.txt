@@ -1,0 +1,35 @@
+bencoding
+字符串:		len:string					
+	例子，4:spam表示spam
+
+整数:		前缀i，后缀e,中间整数		
+	例子，i3e表示3，i-3e表示-3，i0e表示0，其他情况下，如果整数有前缀0，则非法;i-0e也是非法
+
+列表:		前缀l，后缀e，中间是元素	
+	例子，l4:spam4:eggse表示['spam','eggs']
+
+字典：		前缀d，后缀e,中间是key-value的列表
+	例子，d3:cow3:moo4:spam4:eggse表示{'cow':'moo','spam':'eggs'}
+	例子，d4:spaml1:a1:bee表示{'spam':['a','b']}
+	key必须是字符串，按原始字符串的位置编码，而不要按文字顺序排序
+	
+
+	
+
+metainfo文件
+metainfo文件(也就是.torrent文件)是bencoding编码的字典，包含以下key
+
+announce
+	tracker的url
+	
+info
+	这映射到了一个字典，key会在下面进行解释
+	
+.torrent文件里面所有字符串包含的文本必须是utf-8编码。	
+
+
+
+info字典
+name是一个utf-8编码的字符串，表示存储文件时推荐的文件名。
+piece_length表示文件被分割后每块数据的字节数。为了便于传输，文件被分割成固定块数，每块数据大小一样，除了最后一块可能会不一样。piece_length基本上都会是2的指数。最可能的情况是2的18次方，也就是256K。(bittorrent3.2版本之前的软件使用2的20次方，也就是1M作为默认值)。
+pi
