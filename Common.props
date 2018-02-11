@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="CreateDirectories"  >
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <!--
+         Define common solution properties. The properties will be add to all
+         projects that have installed `Install-Package Common.prop` package.
+
+         E.g.
+         <StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
+    -->
+	<OutputPath>d:\bin\debug</OutputPath>
+    <BaseIntermediateOutputPath>d:\obj\</BaseIntermediateOutputPath>	
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>d:\bin\release</OutputPath>
+    <BaseIntermediateOutputPath>d:\obj\</BaseIntermediateOutputPath>	
+  </PropertyGroup>
+  <Target Name="AfterBuild">  
+        <RemoveDir  
+            Directories="$(ProjectDir)obj;" />  
+    </Target>  
+	
+  
+    <PropertyGroup>  
+        <OutputDirectory>d:\123\</OutputDirectory>  
+    </PropertyGroup>  
+<Target Name="CreateDirectories">  
+        <MakeDir  
+            Directories="$(OutputDirectory)"/>  
+    </Target>
+	<PropertyGroup>  
+        <Name>MyCommon</Name>  
+    </PropertyGroup>  
+  
+    <Target Name="Go">  
+        <Message Text="Name=$(Name)"/>  
+    </Target>  
+</Project>
