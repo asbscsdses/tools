@@ -1,3 +1,11 @@
+rawcap过滤localhost http
+需要将web发布到iis上，且网址用本机ip,且网卡选择本地连接，而不是127.0.0.1
+网址用localhost会捕获不到
+用vs2013调试也会捕获不到
+
+
+
+
 rawcap过滤wcf消息
 客户端与服务器不能用localhost
 
