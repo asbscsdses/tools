@@ -1,0 +1,1 @@
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\aspnet_compiler.exe -v / -p "D:\LF\HRJTWebroot" d:\testPrecompileFolder -f
